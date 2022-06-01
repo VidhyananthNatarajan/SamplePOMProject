@@ -6,11 +6,10 @@
       <class name="com.OrangeHRM.TestCases.OrgangeHRM">
         <methods>
           <include name="teardown"/>
-          <include name="setUpClass"/>
           <include name="LaunchApp"/>
           <include name="stopReport"/>
+          <include name="testinputs"/>
           <include name="loginHRM"/>
-          <include name="tearDownClass"/>
           <include name="report"/>
           <include name="startReport"/>
         </methods>

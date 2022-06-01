@@ -1,6 +1,7 @@
 package com.OrangeHRM.CommonMethods;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -22,6 +23,8 @@ public void LaunchApp() {
 	
 	driver = new ChromeDriver();
 	
+	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+	
 	String baseURL ="https://opensource-demo.orangehrmlive.com/";
 	
 	driver.get(baseURL);
@@ -29,6 +32,7 @@ public void LaunchApp() {
 	//Maximize the window
 	
 	driver.manage().window().maximize();
+	
 	
 	//Title
 	
