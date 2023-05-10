@@ -33,7 +33,7 @@ public class Reporter {
 		public void report() throws IOException {
 	 		test = extent.createTest(testcaseName, testcaseDec);
 	 		test.assignAuthor(author);
-			test.assignCategory(category);  
+			test.assignCategory(category); 
 		}
 	    
 	    

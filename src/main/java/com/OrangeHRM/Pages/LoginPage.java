@@ -5,18 +5,18 @@ import com.OrangeHRM.CommonMethods.BaseClass;
 public class LoginPage extends BaseClass {
 	
 	public LoginPage enterusername(String username) {
-		driver.findElementById("txtUsername").sendKeys(username);
-		return this;
+		driver.findElementByXPath("//input[@placeholder='Username']").sendKeys(username);
+	    return this;
 		
 	}
 	
 	public LoginPage enterpassword(String password) {
-		driver.findElementById("txtPassword").sendKeys(password);
+		driver.findElementByXPath("//input[@placeholder='Password']").sendKeys(password);
 		return this;
 		
 	}
-	public AdminPage clickbtn() {
-	driver.findElementById("btnLogin").click();
-	return new AdminPage();
+	public PIMPage clickbtn() {
+	driver.findElementByXPath("//button[text()=' Login ']").click();
+	return new PIMPage();
 	}
 }

@@ -13,7 +13,7 @@ public class OrgangeHRM extends BaseClass {
 	
 	testcaseName ="Login functionality";
 	testcaseDec ="To Validate whether user is able to login";
-    author ="vidhyananth";
+    author ="Automation Tester";
 	category="smoketest";
 		
 	}
@@ -22,12 +22,15 @@ public class OrgangeHRM extends BaseClass {
 @Test (dataProvider ="getdata")	
 public void loginHRM(String username, String password ) {
 	
-	/*LoginPage lp = new LoginPage();
+	LoginPage lp = new LoginPage();
 	lp.enterusername(username);
-	lp.enterpassword(password);
-	lp.clickbtn(); */
+    lp.enterpassword(password);
+    lp.clickbtn();
 	
-	new LoginPage().enterusername(username).enterpassword(password).clickbtn();
+	//new LoginPage().enterusername(username).enterpassword(password).clickbtn();
+	
+	
+	
 } 
 
 }
