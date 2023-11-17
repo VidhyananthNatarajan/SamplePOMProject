@@ -4,6 +4,8 @@ import com.OrangeHRM.CommonMethods.BaseClass;
 
 public class LoginPage extends BaseClass {
 	
+	
+	
 	public LoginPage enterusername(String username) {
 		driver.findElementByXPath("//input[@placeholder='Username']").sendKeys(username);
 	    return this;
@@ -15,8 +17,10 @@ public class LoginPage extends BaseClass {
 		return this;
 		
 	}
-	public PIMPage clickbtn() {
+	public DashboardPage clickbtn() {
 	driver.findElementByXPath("//button[text()=' Login ']").click();
-	return new PIMPage();
+	return new DashboardPage();
 	}
+	
+		
 }

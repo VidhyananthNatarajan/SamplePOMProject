@@ -53,7 +53,7 @@ public Object[][] getlogindata() throws IOException {
 
 @AfterMethod
 public void teardown() {
-	//driver.close();
+	driver.close();
 }
 
 
