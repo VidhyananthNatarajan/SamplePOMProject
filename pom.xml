@@ -63,7 +63,6 @@
 					<configuration>
 						<source>11</source>
 						<target>11</target>
-						<executable>C:\Program Files\Java\jdk-11\bin\javac</executable>
 					</configuration>
 				</plugin>
 				<plugin>
