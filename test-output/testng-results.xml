@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-17T04:13:10Z" name="Suite" finished-at="2023-11-17T04:13:19Z" duration-ms="8368">
+  <suite started-at="2023-12-15T02:57:17Z" name="Default suite" finished-at="2023-12-15T02:57:26Z" duration-ms="9479">
     <groups>
     </groups>
-    <test started-at="2023-11-17T04:13:10Z" name="Test" finished-at="2023-11-17T04:13:19Z" duration-ms="8368">
+    <test started-at="2023-12-15T02:57:17Z" name="Default test" finished-at="2023-12-15T02:57:26Z" duration-ms="9479">
       <class name="com.OrangeHRM.TestCases.OrgangeHRM">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:10Z" name="startReport" finished-at="2023-11-17T04:13:10Z" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:16Z" name="startReport" finished-at="2023-12-15T02:57:17Z" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:10Z" name="testinputs" finished-at="2023-11-17T04:13:10Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testinputs()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:17Z" name="testinputs" finished-at="2023-12-15T02:57:17Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testinputs -->
-        <test-method is-config="true" signature="report()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:10Z" name="report" finished-at="2023-11-17T04:13:10Z" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:17Z" name="report" finished-at="2023-12-15T02:57:17Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:11Z" name="LaunchApp" finished-at="2023-11-17T04:13:18Z" duration-ms="6968" status="PASS">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:18Z" name="LaunchApp" finished-at="2023-12-15T02:57:25Z" duration-ms="7423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApp -->
-        <test-method signature="loginHRM(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:18Z" name="loginHRM" data-provider="getdata" finished-at="2023-11-17T04:13:18Z" duration-ms="458" status="PASS">
+        <test-method signature="loginHRM(java.lang.String, java.lang.String)[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:25Z" name="loginHRM" data-provider="getdata" finished-at="2023-12-15T02:57:26Z" duration-ms="530" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,15 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginHRM -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:18Z" name="teardown" finished-at="2023-11-17T04:13:19Z" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:26Z" name="teardown" finished-at="2023-12-15T02:57:26Z" duration-ms="524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@157853da]" started-at="2023-11-17T04:13:19Z" name="stopReport" finished-at="2023-11-17T04:13:19Z" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.OrangeHRM.TestCases.OrgangeHRM@7c83dc97]" started-at="2023-12-15T02:57:26Z" name="stopReport" finished-at="2023-12-15T02:57:27Z" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
       </class> <!-- com.OrangeHRM.TestCases.OrgangeHRM -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -11,7 +11,6 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
-
 public class Reporter {
 		
 		public static ExtentHtmlReporter reporter;
@@ -34,6 +33,7 @@ public class Reporter {
 	 		test = extent.createTest(testcaseName, testcaseDec);
 	 		test.assignAuthor(author);
 			test.assignCategory(category); 
+			
 		}
 	    
 	    
