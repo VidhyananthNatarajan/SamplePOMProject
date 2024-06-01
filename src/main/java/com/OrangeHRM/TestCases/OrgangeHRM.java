@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.OrangeHRM.CommonMethods.BaseClass;
+import com.OrangeHRM.Pages.DashboardPage;
 import com.OrangeHRM.Pages.LoginPage;
 
 public class OrgangeHRM extends BaseClass {
@@ -25,16 +26,10 @@ public void loginHRM(String username, String password ) {
 LoginPage lp = new LoginPage();
 lp.enterusername(username);
 lp.enterpassword(password);
-lp.clickbtn();
+lp.clickBtn();
 
- 
-  //new LoginPage().enterusername(username).enterpassword(password).clickbtn();
-
-	
-	
-	//new LoginPage().enterusername(username).enterpassword(password).clickbtn();
-	
-	
+DashboardPage dp = new DashboardPage();
+dp.clickadminlink();
 	
 } 
 

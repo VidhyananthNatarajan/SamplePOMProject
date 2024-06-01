@@ -25,7 +25,7 @@ public void LaunchApp() {
 	
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	
-	String baseURL ="https://opensource-demo.orangehrmlive.com/";
+	String baseURL ="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	
 	driver.get(baseURL);
 	
