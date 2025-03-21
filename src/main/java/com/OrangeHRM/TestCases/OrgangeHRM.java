@@ -22,15 +22,17 @@ public class OrgangeHRM extends BaseClass {
 
 @Test (dataProvider ="getdata")	
 public void loginHRM(String username, String password ) {
-	
-LoginPage lp = new LoginPage();
-lp.enterusername(username);
-lp.enterpassword(password);
-lp.clickBtn();
 
-DashboardPage dp = new DashboardPage();
-dp.clickadminlink();
+	LoginPage lp = new LoginPage();
+	lp.enterUsername(username);
+	lp.enterPassword(password);
+	lp.clickbtn();
+	
+	DashboardPage dp = new DashboardPage();
+	dp.clickadminlink();
+	
 	
 } 
+
 
 }

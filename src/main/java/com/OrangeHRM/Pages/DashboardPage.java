@@ -9,5 +9,10 @@ public class DashboardPage extends BaseClass {
 		return new AdminPage();
 		
 	}
+	
+	public PIMPage clickPIMLink() {
+		driver.findElementByLinkText("PIM").click();
+		return new PIMPage();
+	}
 
 }

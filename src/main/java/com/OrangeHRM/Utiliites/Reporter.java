@@ -18,8 +18,7 @@ public class Reporter {
 		public static ExtentTest test, node;
 		
 		public String testcaseName, testcaseDec, author, category;
-	//	public String excelFileName;
-		
+			
 		@BeforeSuite
 		public void startReport() {
 			extent = new ExtentReports();
@@ -40,7 +39,7 @@ public class Reporter {
 	    
 	    @AfterSuite
 	    public void stopReport() {
-	    	extent.flush();
+	    	extent.flush(); // content would be transferred to the report
 	    }
 	}
 

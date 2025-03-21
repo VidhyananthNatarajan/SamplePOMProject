@@ -9,7 +9,7 @@
           <include name="LaunchApp"/>
           <include name="stopReport"/>
           <include name="testinputs"/>
-          <include name="loginHRM" invocation-numbers="0"/>
+          <include name="loginHRM"/>
           <include name="report"/>
           <include name="startReport"/>
         </methods>
